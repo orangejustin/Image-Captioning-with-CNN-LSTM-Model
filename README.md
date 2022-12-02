@@ -1,11 +1,13 @@
-# PA 3: Image Captioning with CNN-LSTM Model
+# `Due to privacy issues, the code will be released within a month.`
+
+# Image Captioning with CNN-LSTM Model
 
 
 ## Contributors
 Zecheng, Wenqian, Lainey, Mingkun
 
 
-# Due to privacy issues, the code will be released within a month.
+
 ## Task
 
 This project focus on constructing an encoder-decoder neural network architecture
