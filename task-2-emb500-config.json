@@ -1,0 +1,38 @@
+{
+  "experiment_name": "task-2-emb500-config",
+  "dataset": {
+    "training_ids_file_path": "./train_ids.csv",
+    "validation_ids_file_path": "./val_ids.csv",
+    "test_ids_file_path": "./test_ids.csv",
+    "training_annotation_file_path": "./data/annotations/captions_train2014.json",
+    "test_annotation_file_path": "./data/annotations/captions_val2014.json",
+    "images_root_dir": "./data/images/",
+    "vocabulary_threshold": 2,
+    "img_size": 256,
+    "batch_size": 64,
+    "num_workers": 8
+  },
+  "experiment": {
+    "num_epochs": 10,
+    "learning_rate": 5e-4,
+    "optimizer": "Adam",
+    "weight_decay": 1e-4,
+    "lr_scheduler": "steplr",
+    "early_stop": "true",
+    "patience": 3,
+    "step": 0.2
+  },
+  "model": {
+    "hidden_size": 512,
+    "embedding_size": 500,
+    "model_type": "Resnet",
+    "keep_image": false,
+    "dropout": true,
+    "dropout_param": 0.5
+  },
+  "generation": {
+    "max_length": 20,
+    "deterministic": false,
+    "temperature": 0.4
+  }
+}

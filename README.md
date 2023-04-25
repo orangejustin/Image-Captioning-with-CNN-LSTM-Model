@@ -1,6 +1,4 @@
-# `Due to privacy issues, the code will be released within a month.`
-
-# Image Captioning with CNN-LSTM Model
+# PA 3: Image Captioning with CNN-LSTM Model
 
 
 ## Contributors
